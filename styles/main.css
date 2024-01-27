@@ -1,0 +1,44 @@
+@import url(./reset.css);
+
+.item {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+  height: 50px;
+  width: 250px;
+}
+
+.item1 {
+  background: linear-gradient(to bottom right, black, red);
+}
+.item2 {
+  background: linear-gradient(to bottom right, black, orange);
+}
+.item3 {
+  background: linear-gradient(to bottom right, black, yellow);
+  align-self: flex-end;
+}
+.item4 {
+  background: linear-gradient(to bottom, white, green);
+}
+.item5 {
+  background: linear-gradient(to bottom, white, cyan);
+}
+.item6 {
+  background: linear-gradient(to bottom, white, blue);
+}
+.item7 {
+  background: linear-gradient(to bottom, white, purple);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+  border: 4px solid orangered;
+}
